@@ -95,6 +95,8 @@ public class AutoOpen {
             System.out.println("\nnumber of times with 3 legendaries in a pack: " + threeLegendaryInPacks +
                     "\nnumber of times with 4 legendaries in a pack: " + fourLegendaryInPacks +
                     "\nnumber of times with 5 legendaries in a pack: " + fiveLegendaryInPacks);
+            System.out.println("\nnumber of epics: " + numEpic +
+                    "\nnumber of legendaries: " + numLegendary);
 
             System.out.println("\nWould you like to open more packs? Enter y to continue or any other letter to quit");
             goAgain = scan.next().charAt(0);
